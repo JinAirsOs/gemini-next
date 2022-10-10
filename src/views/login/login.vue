@@ -16,6 +16,7 @@
                   <login-form></login-form>
             </div>
 
+            <!--
             <div class="footer">
                   <a-row>
                         <a-col :span="24">
@@ -41,6 +42,7 @@
                         </a-col>
                   </a-row>
             </div>
+            -->
 
             <Sponsor ref="sponsor"></Sponsor>
 
