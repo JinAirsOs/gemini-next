@@ -1,5 +1,11 @@
 <template>
-      <img src="../../assets/login/logo.png" width="350" />
+      <br />
+      <br />
+      <br />
+      <br />
+      <img src="../../assets/login/logo-2.png" width="260" />
+      <br />
+      <br />
       <br />
       <a-form :model="loginForm">
             <a-form-item>

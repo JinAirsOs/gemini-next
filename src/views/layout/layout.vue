@@ -2,7 +2,7 @@
       <div v-watermark="{ text: store.state.user.account.user }">
             <a-layout>
                   <a-layout-sider v-model:collapsed="collapsed" :trigger="null" collapsible>
-                        <img :src="logoUrl" style="width: 150px;" />
+                        <!-- <img :src="logoUrl" style="width: 150px;" /> -->
                         <Menu></Menu>
                   </a-layout-sider>
 
@@ -52,6 +52,7 @@
                                     <component :is="Component" />
                               </router-view>
                         </a-layout-content>
+                        <!--
                         <a-layout-footer :style="{ textAlign: 'center', width: '100%' }">
                               <a-space>
                                     <span>{{Copyright}}</span>
@@ -59,6 +60,7 @@
                                     <a href="https://next.yearning.io/sponsor.html" target="_blank">获取赞助版</a>
                               </a-space>
                         </a-layout-footer>
+                        -->
                   </a-layout>
             </a-layout>
             <a-drawer placement="right" :closable="false" :visible="is_open" @close="close">
