@@ -48,9 +48,6 @@
                                     <a-textarea :rows="3" v-model:value="orderItems.text" showCount allowClear>
                                     </a-textarea>
                               </a-form-item>
-                              <a-form-item :label="$t('order.profile.timing')">
-                                    <a-date-picker show-time @ok="delayTime" />
-                              </a-form-item>
                               <a-form-item :label="$t('order.profile.roll')">
                                     <a-radio-group name="radioGroup" v-model:value="orderItems.backup">
                                           <a-radio :value="1">{{ $t('common.yes') }}</a-radio>
