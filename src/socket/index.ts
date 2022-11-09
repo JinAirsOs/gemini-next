@@ -33,9 +33,6 @@ export default class WsSocket {
             let vm = this
             let flag = 0
             this.checkTime = setInterval(() => {
-                  if (flag > 5) {
-                        return
-                  }
                   if (vm.isClose()) {
                         flag++
                         vm.create()
