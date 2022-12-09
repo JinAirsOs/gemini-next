@@ -52,15 +52,6 @@
                                     <component :is="Component" />
                               </router-view>
                         </a-layout-content>
-                        <!--
-                        <a-layout-footer :style="{ textAlign: 'center', width: '100%' }">
-                              <a-space>
-                                    <span>{{Copyright}}</span>
-                                    <a href="https://next.yearning.io" target="_blank">帮助文档</a>
-                                    <a href="https://next.yearning.io/sponsor.html" target="_blank">获取赞助版</a>
-                              </a-space>
-                        </a-layout-footer>
-                        -->
                   </a-layout>
             </a-layout>
             <a-drawer placement="right" :closable="false" :visible="is_open" @close="close">

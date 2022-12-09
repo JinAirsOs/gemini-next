@@ -55,7 +55,7 @@ export default {
       "common.table.source": "Source",
       "common.table.schema": "Schema",
       "common.table.table": "Table",
-      "common.table.max": "Max affected",
+      "common.table.max": "Rows scanned",
       "common.table.state": "Status",
       "common.table.stage": "Stage",
       "common.table.level": "Error Level",
