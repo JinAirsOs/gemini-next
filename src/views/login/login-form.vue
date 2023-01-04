@@ -46,7 +46,7 @@ import { debounce } from "lodash-es"
 const loginForm: UnwrapRef<LoginFrom> = reactive({
       username: "",
       password: "",
-      is_ldap: false,
+      is_ldap: true,
       is_oidc: false
 })
 
